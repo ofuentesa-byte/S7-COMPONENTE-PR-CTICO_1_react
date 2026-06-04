@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/S7-COMPONENTE PRÁCTICO_1/",
+  base: "/S6-TRABAJO-PR-CTICO-EXPERIMENTAL_2-comp1-f-main/",
 });
