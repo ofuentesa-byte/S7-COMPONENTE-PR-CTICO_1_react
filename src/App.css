@@ -1,0 +1,164 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+
+body{
+  background:#f4f8fb;
+}
+
+.navbar{
+  background:#0a6ebd;
+  color:white;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px;
+  flex-wrap:wrap;
+}
+
+.logo-container{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.logo{
+  width:60px;
+}
+
+.navbar ul{
+  display:flex;
+  list-style:none;
+  gap:20px;
+}
+
+.navbar a{
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.hero{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:50px;
+  gap:30px;
+  flex-wrap:wrap;
+}
+
+.hero img{
+  width:450px;
+  max-width:100%;
+  border-radius:10px;
+}
+
+.hero-text{
+  flex:1;
+}
+
+.hero h1{
+  font-size:45px;
+  margin-bottom:20px;
+}
+
+.hero button{
+  background:#0a6ebd;
+  color:white;
+  border:none;
+  padding:12px 20px;
+  border-radius:10px;
+  cursor:pointer;
+  margin-top:20px;
+}
+
+.cards-section{
+  padding:50px;
+  text-align:center;
+}
+
+.cards-container{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+  margin-top:30px;
+}
+
+.card{
+  background:white;
+  width:280px;
+  border-radius:12px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+  padding:20px;
+}
+
+.card img{
+  width:100%;
+  border-radius:10px;
+}
+
+.card button{
+  margin-top:15px;
+  padding:10px;
+  border:none;
+  background:#0a6ebd;
+  color:white;
+  border-radius:10px;
+}
+
+.info-section,
+.contacto-section{
+  padding:50px;
+  text-align:center;
+}
+
+footer{
+  background:#084f8c;
+  color:white;
+  text-align:center;
+  padding:20px;
+}
+
+@media(max-width:768px){
+  .hero{
+    text-align:center;
+    justify-content:center;
+  }
+
+  .navbar{
+    justify-content:center;
+    gap:20px;
+  }
+
+  .navbar ul{
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+}
+.footer-profesional {
+  background-color: #111827; /* Negro azulado elegante */
+  color: #f3f4f6;
+  padding: 50px 5% 20px 5%;
+  text-align: left;
+}
+.footer-container { max-width: 1200px; margin: 0 auto; }
+.footer-grid { display: flex; gap: 50px; justify-content: space-between; flex-wrap: wrap; }
+.footer-section { flex: 1; min-width: 300px; }
+.footer-section h4 { color: #3b82f6; font-size: 1.4rem; margin-bottom: 15px; }
+.sobre-nosotros p { line-height: 1.6; color: #d1d5db; font-size: 0.95rem; }
+.mision-vision p { margin-top: 12px; font-size: 0.9rem; border-left: 3px solid #3b82f6; padding-left: 10px; }
+
+/* Inputs del Formulario abajo */
+.f-form { display: flex; flex-direction: column; gap: 10px; }
+.f-form input, .f-form select { background-color: #1f2937; border: 1px solid #374151; color: white; padding: 10px; border-radius: 6px; }
+.btn-f-submit { background-color: #3b82f6; color: white; border: none; padding: 12px; font-weight: bold; border-radius: 6px; cursor: pointer; }
+
+/* El bloque de contacto abajo al lado del copyright */
+.footer-divider { border: 0; height: 1px; background: #374151; margin: 30px 0 20px 0; }
+.footer-bottom-info { text-align: center; }
+.contact-info-row { display: flex; justify-content: center; gap: 30px; margin-bottom: 15px; color: #9ca3af; font-size: 0.95rem; flex-wrap: wrap; }
+.copyright { color: #6b7280; font-size: 0.85rem; margin: 0; }
