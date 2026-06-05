@@ -8,13 +8,13 @@ function Footer() {
   };
 
   return (
-    <footer className="footer-profesional">
+    <footer className="footer-profesional" id="contacto">
       <div className="footer-container">
         
-        {/* PARTE INFERIOR: Estructura en Columnas */}
+        
         <div className="footer-grid">
           
-          {/* Columna Sobre Nosotros (Texto mejorado y ampliado) */}
+          
           <div className="footer-section sobre-nosotros">
             <h4>Sobre Nosotros</h4>
             <p>
@@ -29,7 +29,7 @@ function Footer() {
             </div>
           </div>
 
-          {/* Columna Formulario Integrado Abajo */}
+          
           <div className="footer-section formulario-footer">
             <h4>Agendar Cita Médica</h4>
             <form onSubmit={(e) => { e.preventDefault(); alert("¡Solicitud enviada!"); }} className="f-form">
@@ -56,7 +56,7 @@ function Footer() {
         {/* PARTE FINAL: Contacto ordenado en línea justo arriba del Copyright */}
         <div className="footer-bottom-info">
           <div className="contact-info-row">
-            <span>📞 099 123 4567</span>
+            <span>📞 099999999</span>
             <span>📧 contacto@clinicasaludvital.com</span>
             <span>📍 Av. Principal y Calle Salud</span>
           </div>

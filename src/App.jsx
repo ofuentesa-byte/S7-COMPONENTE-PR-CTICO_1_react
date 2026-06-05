@@ -5,7 +5,7 @@ import Hero from './components/Hero';
 import Card from './components/Card';
 import Footer from './components/Footer';
 
-// Tus imágenes importadas
+
 import doctor from './assets/doctor.jpg';
 import pediatria from './assets/pediatria.jpg';
 import odontologia from './assets/odontologia.jpg';
@@ -48,12 +48,7 @@ function App() {
         </div>
       </section>
 
-      {/* ======================================================== */}
-      {/* AQUÍ BORRAMOS LA SECCIÓN VIEJA DE "NOSOTROS" Y "CONTACTO" */}
-      {/* QUE ESTABA EN EL FONDO BLANCO                              */}
-      {/* ======================================================== */}
-
-      {/* Tu Footer que ahora contiene todo ordenado de forma elegante */}
+     
       <Footer />
     </div>
   );
